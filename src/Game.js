@@ -31,6 +31,9 @@ function Player() {
           case 'Space':
             api.velocity.set(0, 5, 0)
             break
+            default:
+              // No movement for other keys
+              break  
         }
       }
       
